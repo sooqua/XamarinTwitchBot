@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:singleLine="true"
+        android:text="Bot username:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IRClabelUsername" />
+    <EditText
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IRCusernameTBox" />
+    <TextView
+        android:singleLine="true"
+        android:text="Bot password:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IRClabelPassword" />
+    <EditText
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IRCpasswordTBox"
+        android:password="true" />
+    <TextView
+        android:singleLine="true"
+        android:text="Mod username:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IRClabelmodUsername" />
+    <EditText
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IRCmodusernameTBox" />
+    <TextView
+        android:singleLine="true"
+        android:text="Mod password:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IRClabelmodPassword" />
+    <EditText
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IRCmodpasswordTBox"
+        android:password="true" />
+    <Button
+        android:text="Log In"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IRCloginBtn" />
+    <TextView
+        android:singleLine="true"
+        android:text="Group:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IRClabelGroupName"
+        android:visibility="gone" />
+    <EditText
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IRCgroupNameTBox"
+        android:visibility="gone" />
+    <Button
+        android:text="START THE BOT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IRCstartBotBtn"
+        android:visibility="gone" />
+    <Button
+        android:text="Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IRClogoutBtn"
+        android:visibility="gone" />
+</LinearLayout>
